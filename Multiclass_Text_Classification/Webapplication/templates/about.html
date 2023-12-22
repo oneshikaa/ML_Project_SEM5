@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>About</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+  </head>
+  <body class="about-body">
+
+    <nav>
+  	<ul>
+	 <li><a href="{{ url_for('index') }}">Home</a></li>
+  	 <li><a href="{{ url_for('about') }}">About</a></li>
+   	 <li><a href="{{ url_for('contact') }}">Contact</a></li>
+  	</ul>
+    </nav>
+
+    <div class="about-container">
+      <h1 class="about-h1">About Text Classification</h1>
+      <p class="about-p">Text classification was a task where I assigned predefined categories or labels to text documents. This is a fundamental problem in natural language processing, and it has many applications such as sentiment analysis, spam detection, topic classification, etc.<br><br>
+
+	To perform text classification with 5 classes, I used both traditional machine learning (ML)models.<br><br>
+
+	For ML models, I used algorithms such as Naive Bayes, Support Vector Machines (SVM), Random Forest, Logistic Regression. These models required feature extraction and selection techniques such as CountVectorizer, TfidfVectorizer.<br><br>
+
+      
+      <h2 class="about-h2">About me</h2>
+      <p class="about-p">I am the developer of this project, and I am well versed with frontend technologies like HTML/CSS/J. I spent my last summer interning at NIT Hamirpur where I first learned about NLP and was fscinated by ML. I am currently working with Django framework to learn more about backend developement . That's about me.</p>
+      <p class="about-p">You can find me on <a href="https://github.com/oneshikaa">GitHub</a>, where I shares my projects and contributions to the open-source community.</p>
+    </div>
+
+
+
+  </body>
+</html>
